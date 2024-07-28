@@ -3,14 +3,16 @@ import mdcImg from "../assets/mdc.jpg";
 
 const OtherInstitution = () => {
   return (
-    <section id="other-institutions" className="bg-gray-100 py-8">
+    <section id="our-institutes" className="bg-gray-100 py-8">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-8">Our Institutions</h1>
         
         <div className="mb-8 flex flex-col md:flex-row">
 
           <div className='mb-8 flex flex-col md:flex-row '>
-          <img src={mdcImg} alt="Malabar Dental College" className="w-full md:w-[40%] h-auto object-contain rounded-lg shadow-md mb-4 md:mb-0 md:mr-4" />
+          <a href="https://mdcrc.edu.in/" className='w-full md:w-[40%]  h-full object-contain rounded-lg shadow-md mb-4 md:mb-0 md:mr-4'>
+            <img src={mdcImg} alt="Malabar Dental College" className='rounded-md h-full object-cover'/>
+          </a>
           <div className="md:w-[60%]">
           <h2 className="text-3xl font-semibold text-center mb-4">Malabar Dental College</h2>
             <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Location:</span> Serene location on top of a small hillock, away from the city, but well connected by air, rail, and road, providing the proper calm and quiet atmosphere for the students to do sincere studies.</p>
@@ -36,11 +38,15 @@ const OtherInstitution = () => {
             <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Extra-Curricular Activities:</span> Management does not believe only in academics, but want the students to grow on all aspects. Sports, outdoor and indoor games, cultural and literary activities take place in a regular interval.</p>
             <span className='font-semibold'>website: <a href="https://malabarccs.edu.in/" className="text-rose-400 hover:underline text-base">malabarccs.edu.in</a></span>
           </div>
-          <img src="https://malabarccs.edu.in/assets/images/banner/mccs1.png" alt="Malabar College of Commerce & Sciences" className="w-full md:w-[40%] h-auto rounded-lg shadow-md mb-4 md:mb-0 md:ml-4" />
+          <a href="https://malabarccs.edu.in/" className="w-full md:w-[40%] h-auto rounded-lg shadow-md mb-4 md:mb-0 md:ml-4">
+            <img src="https://malabarccs.edu.in/assets/images/banner/mccs1.png" alt="Malabar College of Commerce & Sciences" className='rounded-md h-full object-cover' />
+          </a>
         </div>
 
         <div className="mb-8 flex flex-col md:flex-row">
-          <img src="https://www.malabarcollegeofpharmacy.com/assets/img/about/01.jpg" alt="Malabar Pharmacy College" className="w-full md:w-[40%] h-auto rounded-lg shadow-md mb-4 md:mb-0 md:mr-4" />
+          <a href="https://www.malabarcollegeofpharmacy.com/" className="w-full md:w-[40%] h-auto rounded-lg shadow-md mb-4 md:mb-0 md:mr-4">
+            <img src="https://www.malabarcollegeofpharmacy.com/assets/img/about/01.jpg" alt="Malabar Pharmacy College" className='rounded-md h-full object-cover'/>
+          </a>
           <div className="md:w-[60%]">
             <h2 className="text-3xl font-semibold text-center mb-4">Malabar Pharmacy College</h2>
             <p className="text-gray-700 mb-4">Malabar Pharmacy College set at stone’s through distance on the bank of river ‘Bharathapuzha’ Near Kuttippuram is a new project of Malabar Educational & Charitable Trust. Located in Chekannur, in the Manoor Chekannur road, Edappal in the district of Malappuram. The college versioned systematic and highly sophisticated learning opportunities to the students who take Pharmaceutical care as their profession. The campus is spread on a landscaped sprawling 25 acres of land, architecture buildings are very attractive and provide a serene atmosphere. It has meticulously planned boarding space with soothing ambience for nurturing and nourishing the elements of value education. It is an intellectually stimulating environment for high quality learning.</p>
