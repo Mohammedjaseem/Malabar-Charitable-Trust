@@ -10,8 +10,8 @@ const OtherInstitution = () => {
         <div className="mb-8 flex flex-col md:flex-row">
 
           <div className='mb-8 flex flex-col md:flex-row '>
-          <a href="https://mdcrc.edu.in/" className='w-full md:w-[40%]  h-full object-contain rounded-lg shadow-md mb-4 md:mb-0 md:mr-4'>
-            <img src={mdcImg} alt="Malabar Dental College" className='rounded-md h-full object-cover'/>
+          <a href="https://mdcrc.edu.in/" className='w-full md:w-[40%]  h-auto object-contain rounded-lg shadow-md mb-4 md:mb-0 md:mr-4'>
+            <img src={mdcImg} alt="Malabar Dental College" className='rounded-md h-[300px] md:h-full object-cover'/>
           </a>
           <div className="md:w-[60%]">
           <h2 className="text-3xl font-semibold text-center mb-4">Malabar Dental College</h2>
@@ -39,13 +39,13 @@ const OtherInstitution = () => {
             <span className='font-semibold'>website: <a href="https://malabarccs.edu.in/" className="text-rose-400 hover:underline text-base">malabarccs.edu.in</a></span>
           </div>
           <a href="https://malabarccs.edu.in/" className="w-full md:w-[40%] h-auto rounded-lg shadow-md mb-4 md:mb-0 md:ml-4">
-            <img src="https://malabarccs.edu.in/assets/images/banner/mccs1.png" alt="Malabar College of Commerce & Sciences" className='rounded-md h-full object-cover' />
+            <img src="https://malabarccs.edu.in/assets/images/banner/mccs1.png" alt="Malabar College of Commerce & Sciences" className='rounded-md w-full  h-[300px] md:h-full object-cover' />
           </a>
         </div>
 
         <div className="mb-8 flex flex-col md:flex-row">
           <a href="https://www.malabarcollegeofpharmacy.com/" className="w-full md:w-[40%] h-auto rounded-lg shadow-md mb-4 md:mb-0 md:mr-4">
-            <img src="https://www.malabarcollegeofpharmacy.com/assets/img/about/01.jpg" alt="Malabar Pharmacy College" className='rounded-md h-full object-cover'/>
+            <img src="https://www.malabarcollegeofpharmacy.com/assets/img/about/01.jpg" alt="Malabar Pharmacy College" className='rounded-md w-full  h-[300px] md:h-full object-cover'/>
           </a>
           <div className="md:w-[60%]">
             <h2 className="text-3xl font-semibold text-center mb-4">Malabar Pharmacy College</h2>
