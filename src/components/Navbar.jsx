@@ -17,11 +17,14 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <img src={logo} alt="Logo" className="hidden md:block h-8 w-auto mr-3" />
-            <span className="text-[15px] sm:text-lg md:text-xl font-bold">Malabar Educational Charitable Trust</span>
+            <div>
+            <span className=" text-[15px] sm:text-lg md:text-xl font-bold text-gray-800">Malabar Academic City</span>
+            <span className="block text-[10px] sm:text-sm md:text-md text-gray-600">Run by Malabar Educational Charitable Trust</span>
+            </div>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <a href="#about" className="text-gray-600 font-medium hover:text-gray-900">About Us</a>
-            <a href="#contact" className="text-gray-600 font-medium hover:text-gray-900">Contact Us</a>
+            <a href="#about" className="text-gray-600 font-medium hover:text-gray-900 transition duration-300 ease-in-out">About Us</a>
+            <a href="#contact" className="text-gray-600 font-medium hover:text-gray-900 transition duration-300 ease-in-out">Contact Us</a>
           </div>
           <div className="flex items-center md:hidden">
             <IconButton onClick={toggleMenu}>
@@ -32,8 +35,14 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className="md:hidden bg-white shadow-md">
-          <a href="#about" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">About Us</a>
-          <a href="#contact" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact Us</a>
+          <a href="#about" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out relative group">
+            About Us
+            <span className="absolute left-0 bottom-0 w-0 h-1 bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
+          </a>
+          <a href="#contact" className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition duration-300 ease-in-out relative group">
+            Contact Us
+            <span className="absolute left-0 bottom-0 w-0 h-1 bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
+          </a>
         </div>
       )}
     </nav>

@@ -45,8 +45,9 @@ const Footer = () => {
         </div>
        
       </div>
-      <div className="text-start  bg-[#202020] py-4 px-4">
-        <p className='text-sm text-gray-300'>Copyright © 2024 <a href="https://connect.edentu.com/" className="text-white hover:underline">Edentu Pvt Ltd</a></p>
+      <div className="text-start flex flex-wrap gap-2 justify-between  bg-[#202020] py-4 px-4">
+        <p className='text-sm text-gray-3000'>Copyright © 2024 <a href="https://connect.edentu.com/" className="text-white hover:underline">Edentu Pvt Ltd</a></p>
+        <span className='text-sm text-gray-3000'>Last updated: 23/05/2024</span>
       </div>
     </footer>
   )

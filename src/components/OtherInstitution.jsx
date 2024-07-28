@@ -21,7 +21,7 @@ const OtherInstitution = () => {
             <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Anti-Ragging Campaign:</span> So far, there has not been a single incident of ragging. A high-powered Anti-Ragging squad and Committee take care to create awareness amongst the students.</p>
             <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Accommodation:</span> There are separate Boys' & Girls' hostels with messing facilities available within the campus with all amenities.</p>
             <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Extra-Curricular Activities:</span> Management does not believe only in academics but wants the students to grow in all aspects. Sports, outdoor and indoor games, cultural and literary activities take place at regular intervals.</p>
-            <a href="https://mdcrc.edu.in/" className="text-rose-400 hover:underline">mdcrc.edu.in</a>
+            <span className='font-semibold'>website: <a href="https://mdcrc.edu.in/" className="text-rose-400 hover:underline text-base">mdcrc.edu.in</a></span>
           </div>
           </div>
         </div>
@@ -29,12 +29,12 @@ const OtherInstitution = () => {
         <div className="mb-8 flex flex-col md:flex-row">
           <div className="md:w-[60%] ">
             <h2 className="text-3xl font-semibold text-center mb-4">Malabar College of Commerce & Sciences</h2>
-            <p className="text-gray-700 mb-4">Location: Serene Location on top of small hillock, away from city, but well connected by air, rail and road, provide the proper calm and quite atmosphere for the student to do sincere studies.</p>
-            <p className="text-gray-700 mb-4">Academics: Highly trained and qualified faculty members in all the departments to impart proper individual training to make the student to become a good quality dentist.</p>
-            <p className="text-gray-700 mb-4">Support for Students: They are always supported by management and the faculties for overall growth including discipline to make them a good human and a quality dentist, so that they can become finically independent and take care of their family.</p>
-            <p className="text-gray-700 mb-4">Anti-Ragging Campaign: So far, there was not even a single incident of ragging. A high powered Anti-Ragging squad and Committee take care to create awareness amongst the students.</p>
-            <p className="text-gray-700 mb-4">Extra-Curricular Activities: Management does not believe only in academics, but want the students to grow on all aspects. Sports, outdoor and indoor games, cultural and literary activities take place in a regular interval.</p>
-            <a href="https://malabarccs.edu.in/" className="text-rose-400 hover:underline">malabarccs.edu.in</a>
+            <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Location:</span> Serene Location on top of small hillock, away from city, but well connected by air, rail and road, provide the proper calm and quite atmosphere for the student to do sincere studies.</p>
+            <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Academics:</span> Highly trained and qualified faculty members in all the departments to impart proper individual training to make the student to become a good quality dentist.</p>
+            <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Support for Students:</span> They are always supported by management and the faculties for overall growth including discipline to make them a good human and a quality dentist, so that they can become finically independent and take care of their family.</p>
+            <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Anti-Ragging Campaign:</span> So far, there was not even a single incident of ragging. A high powered Anti-Ragging squad and Committee take care to create awareness amongst the students.</p>
+            <p className="text-gray-700 mb-4"><span className="text-gray-600 font-semibold">Extra-Curricular Activities:</span> Management does not believe only in academics, but want the students to grow on all aspects. Sports, outdoor and indoor games, cultural and literary activities take place in a regular interval.</p>
+            <span className='font-semibold'>website: <a href="https://malabarccs.edu.in/" className="text-rose-400 hover:underline text-base">malabarccs.edu.in</a></span>
           </div>
           <img src="https://malabarccs.edu.in/assets/images/banner/mccs1.png" alt="Malabar College of Commerce & Sciences" className="w-full md:w-[40%] h-auto rounded-lg shadow-md mb-4 md:mb-0 md:ml-4" />
         </div>
@@ -44,7 +44,7 @@ const OtherInstitution = () => {
           <div className="md:w-[60%]">
             <h2 className="text-3xl font-semibold text-center mb-4">Malabar Pharmacy College</h2>
             <p className="text-gray-700 mb-4">Malabar Pharmacy College set at stone’s through distance on the bank of river ‘Bharathapuzha’ Near Kuttippuram is a new project of Malabar Educational & Charitable Trust. Located in Chekannur, in the Manoor Chekannur road, Edappal in the district of Malappuram. The college versioned systematic and highly sophisticated learning opportunities to the students who take Pharmaceutical care as their profession. The campus is spread on a landscaped sprawling 25 acres of land, architecture buildings are very attractive and provide a serene atmosphere. It has meticulously planned boarding space with soothing ambience for nurturing and nourishing the elements of value education. It is an intellectually stimulating environment for high quality learning.</p>
-            <a href="https://www.malabarcollegeofpharmacy.com/" className="text-rose-400 hover:underline">malabarcollegeofpharmacy.com</a>
+            <span className='font-semibold'>website: <a href="https://www.malabarcollegeofpharmacy.com/" className="text-rose-400 hover:underline text-base">malabarcollegeofpharmacy.com</a></span>
           </div>
         </div>
       </div>
