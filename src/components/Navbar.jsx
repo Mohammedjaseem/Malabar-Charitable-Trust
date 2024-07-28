@@ -23,8 +23,14 @@ const Navbar = () => {
             </div>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <a href="#about" className="text-gray-600 font-medium hover:text-gray-900 transition duration-300 ease-in-out">About Us</a>
-            <a href="#contact" className="text-gray-600 font-medium hover:text-gray-900 transition duration-300 ease-in-out">Contact Us</a>
+            <a href="#about" className="text-gray-600 font-medium hover:text-gray-900 transition duration-300 ease-in-out relative group">
+              About Us
+              <span className="absolute left-0 bottom-0 w-0 h-1 bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#contact" className="text-gray-600 font-medium hover:text-gray-900 transition duration-300 ease-in-out relative group">
+              Contact Us
+              <span className="absolute left-0 bottom-0 w-0 h-1 bg-rose-400 transition-all duration-300 group-hover:w-full"></span>
+            </a>
           </div>
           <div className="flex items-center md:hidden">
             <IconButton onClick={toggleMenu}>
