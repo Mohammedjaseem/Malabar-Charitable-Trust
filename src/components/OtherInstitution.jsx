@@ -48,7 +48,7 @@ const OtherInstitution = () => {
             <img src="https://www.malabarcollegeofpharmacy.com/assets/img/about/01.jpg" alt="Malabar Pharmacy College" className='rounded-md w-full  h-[300px] md:h-full object-cover'/>
           </a>
           <div className="md:w-[60%]">
-            <h2 className="text-3xl font-semibold text-center mb-4">Malabar Pharmacy College</h2>
+            <h2 className="text-3xl font-semibold text-center mb-4">Malabar College of Pharmacy</h2>
             <p className="text-gray-700 mb-4">Malabar Pharmacy College set at stone’s through distance on the bank of river ‘Bharathapuzha’ Near Kuttippuram is a new project of Malabar Educational & Charitable Trust. Located in Chekannur, in the Manoor Chekannur road, Edappal in the district of Malappuram. The college versioned systematic and highly sophisticated learning opportunities to the students who take Pharmaceutical care as their profession. The campus is spread on a landscaped sprawling 25 acres of land, architecture buildings are very attractive and provide a serene atmosphere. It has meticulously planned boarding space with soothing ambience for nurturing and nourishing the elements of value education. It is an intellectually stimulating environment for high quality learning.</p>
             <span className='font-semibold'>website: <a href="https://www.malabarcollegeofpharmacy.com/" className="text-rose-400 hover:underline text-base">malabarcollegeofpharmacy.com</a></span>
           </div>
